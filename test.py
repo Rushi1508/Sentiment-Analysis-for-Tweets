@@ -49,7 +49,6 @@ def remove_noise(tweet_tokens, stop_words=()):
             pos = 'v'
         else:
             pos = 'a'
-
         lemmatizer = WordNetLemmatizer()
         token = lemmatizer.lemmatize(token, pos)
 
