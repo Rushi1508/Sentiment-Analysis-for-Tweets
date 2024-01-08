@@ -14,8 +14,8 @@ from nltk.tag import pos_tag
 from tkinter import scrolledtext
 
 # Download necessary NLTK resources if not already downloaded
-#nltk.download('all')
-#nltk.download('wordnet')
+nltk.download('all')
+nltk.download('wordnet')
 
 positive_tweets = twitter_samples.strings('positive_tweets.json')
 negative_tweets = twitter_samples.strings('negative_tweets.json')
