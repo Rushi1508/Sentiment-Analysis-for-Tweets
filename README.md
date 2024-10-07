@@ -16,7 +16,7 @@ This project implements a sentiment analysis model to classify tweets as positiv
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/Rushi1508/sentiment-analysis.git
+   git clone https://github.com/Rushi1508/Sentiment-Analysis-for-Tweets.git
 
 ## Usage
 
