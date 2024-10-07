@@ -1,9 +1,8 @@
 import random
 from nltk import classify, NaiveBayesClassifier
 from nltk.corpus import twitter_samples
-from nltk.tokenize import word_tokenize  # Import word_tokenize here
-from preprocessing import remove_noise, get_tweets_for_model  # Import other necessary functions
-
+from nltk.tokenize import word_tokenize  
+from preprocessing import remove_noise, get_tweets_for_model 
 def load_data():
     positive_tweets = twitter_samples.tokenized('positive_tweets.json')
     negative_tweets = twitter_samples.tokenized('negative_tweets.json')
